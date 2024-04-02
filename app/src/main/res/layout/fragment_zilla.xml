@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    tools:context=".Beekeeper"
+    android:id="@+id/shawFragment"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="someting here" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp" >
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:background="@color/main_background"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img3"
+                android:layout_marginLeft="100dp"
+                android:text="Godzilla x Kong:                            The New Empire"
+                android:textColor="@color/lightTan"
+                android:fontFamily="@font/lemon1"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                />
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/img_17"
+                android:outlineSpotShadowColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                />
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_below="@id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:paddingLeft="60dp"
+                >
+                <TextView
+                    android:id="@+id/rateText"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.448"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/lemon1"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/baseline_star_rate_24"
+                    android:layout_gravity="center_vertical"
+                    />
+                <TextView
+                    android:id="@+id/timerText"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/baseline_access_time_24"
+                    android:layout_gravity="center_vertical"
+                    android:text="1h 55min"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/lemon1"
+                    android:gravity="center_vertical"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/likeText"
+                    android:textColor="@color/bg2"
+                    android:text="watch"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/lemon1"
+                    android:onClick="watch"
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll"
+                android:text="Summary"
+                android:fontFamily="@font/lemon3"
+                android:textColor="@color/lighGreen"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/baseline_info_24"
+                android:drawablePadding="5dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt2"
+                android:text="Godzilla and the almighty Kong face a colossal threat hidden deep within the planet, challenging their very existence and the survival of the human race.."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lighGreen"
+                android:text="Actors"
+                android:id="@+id/txt4"
+                android:layout_below="@id/txt3"
+                android:fontFamily="@font/lemon3"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:drawableLeft="@drawable/baseline_recent_actors_24"
+                android:drawablePadding="5dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:layout_below="@id/txt4"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/img_18" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

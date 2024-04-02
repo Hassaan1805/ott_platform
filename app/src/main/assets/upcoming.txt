@@ -1,0 +1,20 @@
+name : Kung Fu Panda 4
+vote_average : 6.937
+poster_path : /kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg
+-
+name : Madame Web
+vote_average : 5.629
+poster_path : /rULWuutDcN5NvtiZi4FRPzRYWSh.jpg
+-
+name : Godzilla x Kong: The New Empire
+vote_average : 7.448
+poster_path : /phmjv93zEwitWLJEOvlXPhtK58o.jpg
+-
+name : Migration
+vote_average : 7.564
+poster_path : /ldfCF9RhR40mppkzmftxapaHeTo.jpg
+-
+name : Dune: Part Two
+vote_average : 8.385
+poster_path : /czembW0Rk1Ke7lCJGahbOhdCuhV.jpg
+

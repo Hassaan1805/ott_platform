@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".introActivity">
+
+
+        <RelativeLayout
+            android:background="@drawable/gb1"
+            android:layout_width="match_parent"
+            android:layout_height="900dp" >
+
+            <ImageView
+
+                android:id="@+id/iv1"
+                android:layout_width="344dp"
+                android:layout_height="345dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="315dp"
+                android:layout_height="325dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"
+                app:shapeAppearanceOverlay="@style/roundedImageCorners"
+               app:srcCompat="@drawable/kes"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introducing MYNX"
+                android:textSize="30dp"
+                android:id="@+id/txt1"
+                android:fontFamily="@font/lemon1"
+                android:textColor="@color/white"
+                android:layout_below="@id/iv1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your favourite OTT platform"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:fontFamily="@font/lemon3"
+                android:layout_below="@id/txt1"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:id="@+id/txt2"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/btng"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt2"
+                android:text="get in"
+                android:onClick="login"
+                android:fontFamily="@font/lemon5"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                style="@android:style/Widget.Button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                />
+        </RelativeLayout>
+</RelativeLayout>

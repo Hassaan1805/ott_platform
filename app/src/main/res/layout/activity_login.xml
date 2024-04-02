@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    tools:context=".loginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/lemon1"
+            android:gravity="center_horizontal"
+            android:text="Log In"
+            android:textColor="@color/lightTan"
+            android:textSize="30dp" />
+
+        <EditText
+            android:background="@drawable/btng"
+            android:id="@+id/ed1"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+
+            android:drawableLeft="@drawable/baseline_perm_identity_24"
+            android:hint="username"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30dp" />
+
+        <EditText
+            android:background="@drawable/btng"
+            android:id="@+id/ed2"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/ed1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_key_24"
+            android:hint="password"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="219dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/ed2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:onClick="forgot"
+            android:text="Forgot Your Password?"
+            android:textColor="@color/lighGreen"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn"
+            android:layout_width="300dp"
+            android:background="@drawable/btng"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:onClick="main"
+            android:fontFamily="@font/lemon3"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Dont have an account?"
+            android:textColor="@color/lighGreen"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Register now"
+            android:textColor="@color/lighGreen"
+            android:textSize="20dp"
+            android:onClick="register"
+            android:clickable="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<!-- custom_error_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/error_img" /> <!-- Your custom error icon -->
+
+    <TextView
+        android:id="@android:id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lemon3"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/darkTan"
+        android:gravity="center_vertical" /> <!-- Custom error message style -->
+</LinearLayout>

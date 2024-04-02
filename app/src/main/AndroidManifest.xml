@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".contentHistory"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NetflixClone"
+        tools:targetApi="31">
+        <activity
+            android:name=".sendEmail"
+            android:exported="false" />
+        <activity
+            android:name=".watchHistory"
+            android:exported="false" />
+        <activity
+            android:name=".streamDune"
+            android:exported="false" />
+        <activity
+            android:name=".streamZilla"
+            android:exported="false" />
+        <activity
+            android:name=".streamWeb"
+            android:exported="false" />
+        <activity
+            android:name=".streamMigration"
+            android:exported="false" />
+        <activity
+            android:name=".streamPanda"
+            android:exported="false" />
+        <activity
+            android:name=".streamAngryman"
+            android:exported="false" />
+        <activity
+            android:name=".streamSchinder"
+            android:exported="false" />
+        <activity
+            android:name=".streamGodfather2"
+            android:exported="false" />
+        <activity
+            android:name=".streamGodfather"
+            android:exported="false" />
+        <activity
+            android:name=".profileActivtiy"
+            android:exported="false" />
+        <activity
+            android:name=".StreamBeekeeper"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".badlandHunters"
+            android:exported="false" />
+        <activity
+            android:name=".Wonka"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shawFragment"
+            android:exported="false" />
+        <activity
+            android:name=".godfatherFragment"
+            android:exported="false" />
+        <activity
+            android:name=".godfather2Fragment"
+            android:exported="false" />
+        <activity
+            android:name=".schinderFragment"
+            android:exported="false" />
+        <activity
+            android:name=".angrymanFragment"
+            android:exported="false" />
+        <activity
+            android:name=".pandaFragment"
+            android:exported="false" />
+        <activity
+            android:name=".duneFragment"
+            android:exported="false" />
+        <activity
+            android:name=".migrationFragment"
+            android:exported="false" />
+        <activity
+            android:name=".webFragment"
+            android:exported="false" />
+        <activity
+            android:name=".zillaFragment"
+            android:exported="false" />
+        <activity
+            android:name=".introActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
